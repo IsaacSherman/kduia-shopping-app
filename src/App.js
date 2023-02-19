@@ -17,27 +17,27 @@ function App() {
 					<div className="col-sm">
 						<CartValue/>
 					</div>
-				</div>
-				<div className="col-sm">
-					<Location/>
+					<div className="col-sm">
+						<Location/>
+					</div>
 				</div>
 			</div>
-            <h3 className="mt-3">Shopping Cart</h3>
+			<h3 className="mt-3">Shopping Cart</h3>
 			<div className="row ">
-			<div className="col-sm">
-				<ExpenseList/>
+				<div className="col-sm">
+					<ExpenseList/>
+				</div>
 			</div>
-            </div>
-            <h3 className="mt-3">Add Items</h3>
-
+			<h3 className="mt-3">Add Items</h3>
 			<div className="row mt-3">
-			<div className="col-sm">
-				<ItemSelected/>
-			</div>
+				<div className="col-sm">
+					<ItemSelected/>
+				</div>
 			</div>
 		</AppProvider>
 	</div>
 </div>
+ 
   );
 };
 
